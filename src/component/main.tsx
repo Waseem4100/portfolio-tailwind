@@ -8,23 +8,23 @@ import linkedin from "@/public/linkdine.png";
 export default function Main(){
     return(
 
-        <div className="Main flex gap-32 mt-24 p-10 ">
+        <div className=" flex gap-32 mt-24 p-10 ">
   
 
 
- <div>  <Image src={SS} alt="profilePicture"  loading="lazy"  className="picture mt-10 ml-8 relative w-1/3 rounded-[30px] shadow-[0_0_25px_rgba(0,0,0,0.25)] cursor-pointer transition duration-500 hover:scale-110 hover:-translate-y-0.5 hover:border-4 hover:border-[#b74b4b] hover:shadow-[0_0_25px_#b74b4b] "  />
+ <div>  <Image src={SS} alt="profilePicture"  loading="lazy"  className=" ml-12 relative w-[32vw] rounded-[30px] shadow-lg cursor-pointer transition duration-500 hover:scale-110 hover:-translate-y-1 hover:border-4 hover:border-[#b74b4b] hover:shadow-[#b74b4b]"  />
   
 </div>
 
     
 
       
-<div className="intro w-1/2 ml-10 h-[500px] mt-24">
+<div className="w-[50%] ml-10">
 
-<h1 className="name text-7xl font-bold leading-tight" >Hi,Im <span className="text-[#b74b4b]" >Waseem </span></h1>
+<h1 className="text-6xl font-semibold " >Hi,Im <span className="text-[#b74b4b]" >Waseem </span></h1>
 
-<h3 className="text-4xl font-bold mb-4" >  I&apos;m{" "} a <span className="profession-span text-[#b74b4b] animate-words">next js</span></h3>
-<p className="mainPragraph w-[400px] text-[20px] opacity-85" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit dolor impedit et quae ea earum quam nihil eligendi nobis doloribus fuga aspernatur deleniti quo provident, at deserunt modi? Impedit, quia.</p>
+<h2 className="text-4xl font-semibold" >  I&apos;m{" "} a <span className=" text-[#b74b4b] animate-words">next js</span></h2>
+<p className="w-[400px]   text-[20px]  opacity-85" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit dolor impedit et quae ea earum quam nihil eligendi nobis doloribus fuga aspernatur deleniti quo provident, at deserunt modi? Impedit, quia.</p>
 
 
 
