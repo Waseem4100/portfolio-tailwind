@@ -72,9 +72,9 @@ export default function Contact () {
             </div>
             <button
               type="submit"
-              className="h-[30px] w-[100px] font-thin mt-5 p-1 border-2 border-transparent rounded-lg transition duration-500 hover:scale-110 hover:-translate-y-[1px] hover:border-[#b74b4b] hover:shadow-[0_0_25px_#b74b4b]"
+              className="h-[30px] w-[150px] font-thin mt-5  pl-2 pr-2  border-2 border-transparent rounded-lg transition duration-500 hover:scale-110 hover:-translate-y-[1px] hover:border-[#b74b4b] hover:shadow-[0_0_25px_#b74b4b]"
             >
-              Send
+              Send Message
             </button>
           </form>
             

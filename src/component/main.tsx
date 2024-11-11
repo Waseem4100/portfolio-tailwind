@@ -8,7 +8,7 @@ import linkedin from "@/public/linkdine.png";
 export default function Main(){
     return(
 
-        <div className=" flex gap-32 mt-24 p-10 ">
+        <div className=" flex flex-wrap gap-32 mt-24 p-2">
   
 
 

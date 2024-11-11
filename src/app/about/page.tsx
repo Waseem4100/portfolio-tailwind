@@ -8,15 +8,15 @@ export default function About() {
   
     
     return (
-      <div className="flex gap-32 mt-24 p-10">
+      <div className="flex flex-wrap gap-32 mt-24 p-2">
 
-     <div > <Image src={about} alt="about" loading="lazy" className="mt-1 ml-12 relative w-[32vw] rounded-[30px] shadow-lg cursor-pointer transition duration-500 hover:scale-110 hover:-translate-y-1 hover:border-4 hover:border-[#b74b4b] hover:shadow-[#b74b4b]"  />
+     <div > <Image src={about} alt="about" loading="lazy" className="AboutPicture mt-12 ml-12 relative w-[32vw] rounded-[30px] shadow-lg cursor-pointer transition duration-500 hover:scale-110 hover:-translate-y-1 hover:border-4 hover:border-[#b74b4b] hover:shadow-[#b74b4b]"  />
      </div>
 
 
 
      <div className=" w-[35%] ml-10">
-      <h2 className="text-4xl font-semibold">About Me</h2>
+      <h2 className=" text-4xl font-semibold">About Me</h2>
       <p className=" w-[400px]   text-[20px]  opacity-85"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo esse molestiae dignissimos animi facilis dolore voluptates rem laudantium non iusto, odio dolores, repellendus vero iure corporis magni pariatur suscipit! Expedita.</p>
      
      <div className="flex flex-row mt-8">
